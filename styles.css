@@ -384,7 +384,7 @@ section {
 /* Más espacio entre las tarjetas de Formación */
 #educacion .cards-grid {
   row-gap: 28px;   /* espacio vertical entre filas */
-  column-gap: 18px; /* mantiene el gap lateral */
+  column-gap: 18px; /*mantiene el gap lateral */
 }
 
 @media (min-width: 768px) {
