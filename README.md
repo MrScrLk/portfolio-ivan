@@ -28,16 +28,9 @@ portfolio-ivan/
     └── certificado-microsoft-365.png
 ```
 
-## Publicación en GitHub Pages
-
-1. Reemplazar los archivos de la rama `main` por los incluidos en este paquete.
-2. Mantener exactamente los nombres y la estructura de carpetas.
-3. En GitHub: **Settings → Pages → Deploy from a branch → main / root**.
-4. Esperar unos minutos y recargar `https://mrscrlk.github.io/portfolio-ivan/`.
-
 ## Actualizar el CV o certificado
 
-Para actualizar esos documentos sin tocar el código, reemplazar los archivos dentro de `assets/` conservando los nombres:
+Para actualizar esos documentos sin tocar el código, debo reemplazar los archivos dentro de `assets/` conservando los nombres:
 
 - `Gabriel-Ivan-Ferreyra-CV.pdf`
 - `certificado-microsoft-365.png`
