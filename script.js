@@ -314,6 +314,7 @@
   };
 
   const languageButtons = [...document.querySelectorAll("[data-language]")];
+  const cvDownloadLinks = [...document.querySelectorAll(".js-cv-download")];
   const menuButton = document.getElementById("menu-button");
   const primaryNavigation = document.getElementById("primary-navigation");
   const metaDescription = document.querySelector('meta[name="description"]');
@@ -368,6 +369,15 @@
     translateElements(selectors.html, "i18nHtml", language);
     translateElements(selectors.aria, "i18nAriaLabel", language);
     translateElements(selectors.alt, "i18nAlt", language);
+
+    const cvPath =
+    language === "en"
+    ? "assets/Gabriel-Ivan-Ferreyra-Resume-EN.pdf"
+    : "assets/Gabriel-Ivan-Ferreyra-CV.pdf";
+
+    cvDownloadLinks.forEach((link) => {
+    link.setAttribute("href", cvPath);
+    });
 
     document.title = translations[language].metaTitle;
     metaDescription?.setAttribute("content", translations[language].metaDescription);
