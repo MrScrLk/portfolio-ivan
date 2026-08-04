@@ -1367,3 +1367,10 @@ ul {
     border: 1px solid #ccd3dc;
   }
 }
+
+
+
+/* Elementos ocultos temporalmente */
+.is-hidden {
+  display: none !important;
+}
